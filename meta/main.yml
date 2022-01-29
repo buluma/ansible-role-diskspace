@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: Robert de Bock
+  author: Michael Buluma
   role_name: diskspace
-  namespace: robertdebock
+  namespace: buluma
   description: Check diskspace (or inodes) available, fail if too low.
   license: Apache-2.0
   company: none
