@@ -45,6 +45,8 @@ jobs:
            # tag: "rawhide"
           - image: "debian"
             tag: "bullseye"
+          - image: "ubuntu"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2
