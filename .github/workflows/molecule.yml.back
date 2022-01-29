@@ -41,8 +41,8 @@ jobs:
             tag: "latest"
           - image: "debian"
             tag: "bullseye"
-          # - image: "debian"
-          #  tag: "bookworm" // TO DO No package matching 'gnupg' is available
+          - image: "debian"
+            tag: "bookworm"
           # - image: "enterpriselinux" // TO DO build enterpriselinux
           #  tag: "latest"
           - image: "fedora"
