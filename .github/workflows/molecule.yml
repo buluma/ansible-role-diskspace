@@ -46,7 +46,7 @@ jobs:
           - image: "debian"
             tag: "bullseye"
           - image: "ubuntu"
-            tag: "latest"
+            tag: "bionic"
     steps:
       - name: checkout
         uses: actions/checkout@v2
