@@ -49,8 +49,10 @@ jobs:
          #   tag: "bionic"
          # - image: "oraclelinux"
          #   tag: "8"
-          - image: "oraclelinux"
-            tag: "7"
+         # - image: "oraclelinux"
+         #   tag: "7"
+          - image: "docker-opensuse-systemd"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2
