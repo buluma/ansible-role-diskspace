@@ -47,8 +47,10 @@ jobs:
          #   tag: "bullseye"
          # - image: "ubuntu"
          #   tag: "bionic"
+         # - image: "oraclelinux"
+         #   tag: "8"
           - image: "oraclelinux"
-            tag: "8"
+            tag: "7"
     steps:
       - name: checkout
         uses: actions/checkout@v2
