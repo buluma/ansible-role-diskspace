@@ -4,7 +4,7 @@ Check diskspace (or inodes) available, fail if too low.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-diskspace/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-diskspace)|[![quality](https://img.shields.io/ansible/quality/55585)](https://galaxy.ansible.com/buluma/diskspace)|[![downloads](https://img.shields.io/ansible/role/d/55585)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|
+|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab status](https://gitlab.com/buluma/ansible-role-diskspace/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-diskspace/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/55585)](https://galaxy.ansible.com/buluma/diskspace)|[![downloads](https://img.shields.io/ansible/role/d/55585)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -69,7 +69,7 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Gitlab status](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap/-/commits/main)|
 
 ## [Context](#context)
 
