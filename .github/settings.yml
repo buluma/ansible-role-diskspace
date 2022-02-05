@@ -4,5 +4,5 @@
 #
 repository:
   description: Check diskspace (or inodes) available, fail if too low.
-  homepage: https://buluma.co.ke/
+  homepage: https://buluma.github.io/
   topics: diskspace, inodes, assert, check, ansible, molecule, tox, playbook, hacktoberfest

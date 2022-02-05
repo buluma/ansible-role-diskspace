@@ -4,7 +4,7 @@ Check diskspace (or inodes) available, fail if too low.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab status](https://gitlab.com/buluma/ansible-role-diskspace/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-diskspace/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/55585)](https://galaxy.ansible.com/buluma/diskspace)|[![downloads](https://img.shields.io/ansible/role/d/55585)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|
+|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-diskspace/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-diskspace)|[![quality](https://img.shields.io/ansible/quality/57815)](https://galaxy.ansible.com/buluma/diskspace)|[![downloads](https://img.shields.io/ansible/role/d/57815)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -41,6 +41,7 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.bootstrap
 ```
 
+
 ## [Role Variables](#role-variables)
 
 The default values for the variables are set in `defaults/main.yml`:
@@ -61,7 +62,7 @@ diskspace_mounts: []
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-diskspace/blob/master/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-diskspace/blob/main/requirements.txt).
 
 ## [Status of used roles](#status-of-requirements)
 
@@ -69,11 +70,11 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Gitlab status](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap/-/commits/main)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://robertdebock.nl/) for further information.
+This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.co.ke/) for further information.
 
 Here is an overview of related roles:
 
@@ -109,4 +110,4 @@ Apache-2.0
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.co.ke/)
+[Michael Buluma](https://buluma.github.io/)
