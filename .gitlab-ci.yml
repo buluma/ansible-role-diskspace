@@ -114,8 +114,6 @@ galaxy:
 role_testing_live:
   script:
     - image=${image} tag=${tag} ansible-galaxy install buluma.diskspace
-  rules:
-    - if: $CI_COMMIT_REF_NAME == "main"
   retry: 1
   parallel:
     matrix:
