@@ -2,9 +2,9 @@
 
 Check diskspace (or inodes) available, fail if too low.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-diskspace/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-diskspace)|[![quality](https://img.shields.io/ansible/quality/57815)](https://galaxy.ansible.com/buluma/diskspace)|[![downloads](https://img.shields.io/ansible/role/d/57815)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-diskspace/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-diskspace)|[![quality](https://img.shields.io/ansible/quality/57815)](https://galaxy.ansible.com/buluma/diskspace)|[![downloads](https://img.shields.io/ansible/role/d/57815)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
