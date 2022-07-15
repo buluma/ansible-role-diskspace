@@ -21,7 +21,7 @@ jobs:
 
 # Move to TODO: action and run as one entity
     - name: Jira TODO
-      uses: atlassian/gajira-todo@master
+      uses: atlassian/gajira-todo@v2.0.1
       with:
         project: ANS
         issuetype: Task
