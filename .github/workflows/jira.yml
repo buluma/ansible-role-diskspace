@@ -6,6 +6,7 @@
 name: Jira Issues Linking
 
 on: push
+  workflow_dispatch:
 
 jobs:
   build:
