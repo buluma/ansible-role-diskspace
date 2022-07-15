@@ -4,9 +4,12 @@
 #
 
 name: Jira Issues Linking
-
-on: push
+on:
+  # Schedule updates (once weekly)
+  schedule:
+    - cron: '7 0/3 * * *'
   workflow_dispatch:
+  push:
 
 jobs:
   build:
