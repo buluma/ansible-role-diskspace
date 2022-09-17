@@ -8,7 +8,7 @@
       when:
         - mount.megabytes_available is defined
 
-    - name: convert gigabytes to kilobytes
+    - name: Convert gigabytes to kilobytes
       ansible.builtin.set_fact:
         kilobytes_available: "{{ mount.gigabytes_available * 1024 * 1024 }}"
       when:
