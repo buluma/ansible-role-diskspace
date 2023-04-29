@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-diskspace/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.10...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#13](https://github.com/buluma/ansible-role-diskspace/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.10](https://github.com/buluma/ansible-role-diskspace/tree/1.0.10) (2022-09-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.9...1.0.10)
