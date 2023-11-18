@@ -6,6 +6,10 @@
 
 **Merged pull requests:**
 
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.7 to 1.0.8 [\#23](https://github.com/buluma/ansible-role-diskspace/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.8 to 5.0.9 [\#21](https://github.com/buluma/ansible-role-diskspace/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 3 to 4 [\#20](https://github.com/buluma/ansible-role-diskspace/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 5.0.7 to 5.0.8 [\#19](https://github.com/buluma/ansible-role-diskspace/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.6 to 5.0.7 [\#18](https://github.com/buluma/ansible-role-diskspace/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.4 to 5.0.6 [\#17](https://github.com/buluma/ansible-role-diskspace/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.7 [\#15](https://github.com/buluma/ansible-role-diskspace/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
