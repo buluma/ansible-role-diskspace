@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#26](https://github.com/buluma/ansible-role-diskspace/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#24](https://github.com/buluma/ansible-role-diskspace/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.7 to 1.0.8 [\#23](https://github.com/buluma/ansible-role-diskspace/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.8 to 5.0.9 [\#21](https://github.com/buluma/ansible-role-diskspace/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
