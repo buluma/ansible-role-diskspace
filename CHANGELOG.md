@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.10...HEAD)
 
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#25](https://github.com/buluma/ansible-role-diskspace/issues/25)
+
 **Merged pull requests:**
 
 - Bump alstr/todo-to-issue-action from 2.3 to 4.11 [\#26](https://github.com/buluma/ansible-role-diskspace/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
