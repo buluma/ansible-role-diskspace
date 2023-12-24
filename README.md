@@ -1,10 +1,10 @@
-# [Ansible role diskspace](#diskspace)
+# Ansible role [diskspace](https://galaxy.ansible.com/ui/standalone/roles/buluma/diskspace/documentation)
 
 Check diskspace (or inodes) available, fail if too low.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-diskspace/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-diskspace/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/diskspace)](https://galaxy.ansible.com/ui/standalone/roles/buluma/diskspace/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -112,13 +112,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-diskspace/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-diskspace/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
