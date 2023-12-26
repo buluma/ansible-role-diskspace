@@ -2,7 +2,20 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-diskspace/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.10...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.11...HEAD)
+
+**Implemented enhancements:**
+
+- Link to jira [\#8](https://github.com/buluma/ansible-role-diskspace/issues/8)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#27](https://github.com/buluma/ansible-role-diskspace/issues/27)
+- Move to todo action and run as one entity [\#9](https://github.com/buluma/ansible-role-diskspace/issues/9)
+
+## [1.0.11](https://github.com/buluma/ansible-role-diskspace/tree/1.0.11) (2023-12-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.10...1.0.11)
 
 **Closed issues:**
 
