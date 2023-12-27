@@ -10,6 +10,7 @@
 
 **Closed issues:**
 
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#29](https://github.com/buluma/ansible-role-diskspace/issues/29)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#27](https://github.com/buluma/ansible-role-diskspace/issues/27)
 - Move to todo action and run as one entity [\#9](https://github.com/buluma/ansible-role-diskspace/issues/9)
 
