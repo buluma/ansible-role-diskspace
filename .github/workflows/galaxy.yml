@@ -16,10 +16,5 @@ jobs:
         # uses: buluma/galaxy-action@v6.25.22  # TODO: rebuild action
         uses: robertdebock/galaxy-action@1.2.1
         with:
-<<<<<<< HEAD
           galaxy_api_key: ${{ secrets.galaxy_api_key }}          
           git_branch: ${{ github.event.repository.default_branch }}
-=======
-          galaxy_api_key: ${{ secrets.galaxy_api_key }}
-          git_branch: main
->>>>>>> 600ee5f9ef606730532fe91e06ed8567a508fe98
