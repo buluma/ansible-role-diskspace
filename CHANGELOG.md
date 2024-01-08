@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0](https://github.com/buluma/ansible-role-diskspace/tree/1.1.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.12...1.1.0)
+
 ## [1.0.12](https://github.com/buluma/ansible-role-diskspace/tree/1.0.12) (2023-12-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.0.11...1.0.12)
