@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#34](https://github.com/buluma/ansible-role-diskspace/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#33](https://github.com/buluma/ansible-role-diskspace/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-diskspace/tree/1.2.0) (2024-01-20)
