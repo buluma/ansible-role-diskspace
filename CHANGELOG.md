@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#38](https://github.com/buluma/ansible-role-diskspace/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#37](https://github.com/buluma/ansible-role-diskspace/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump dependabot/fetch-metadata from 1 to 2 [\#36](https://github.com/buluma/ansible-role-diskspace/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#35](https://github.com/buluma/ansible-role-diskspace/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
