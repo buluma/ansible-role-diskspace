@@ -14,8 +14,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
 
   roles:
     - role: buluma.diskspace
@@ -25,9 +25,9 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
           megabytes_available: 64
         - name: /etc/hostname
           gigabytes_available: 4
-        - name: /etc/hosts
-          inodes_available: 65536
-          gigabytes_available: 1
+        # - name: /etc/hosts
+        #   inodes_available: 65536
+        #   gigabytes_available: 1
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-diskspace/blob/master/molecule/default/prepare.yml):
@@ -36,8 +36,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
   roles:
     - role: buluma.bootstrap
@@ -91,7 +91,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[Alpine](https://hub.docker.com/r/buluma/alpine)|all|
-|[Amazon](https://hub.docker.com/r/buluma/amazonlinux)|all|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8|
 |[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
