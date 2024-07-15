@@ -59,11 +59,11 @@ jobs:
           - image: "enterpriselinux"
             tag: "8"
           - image: "docker-molecule-images"
+            tag: "38"
+          - image: "docker-molecule-images"
             tag: "39"
           - image: "docker-molecule-images"
             tag: "40"
-          - image: "docker-molecule-images"
-            tag: "rawhide"
           - image: "docker-molecule-images"
             tag: "opensuse"
           - image: "docker-molecule-images"
@@ -72,8 +72,6 @@ jobs:
             tag: "focal"
           - image: "docker-molecule-images"
             tag: "jammy"
-          - image: "docker-molecule-images"
-            tag: "lunar"
           - image: "docker-molecule-images"
             tag: "noble"
     steps:
@@ -86,8 +84,6 @@ jobs:
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
-      - name: Running Role Test
-        run: ansible-galaxy role import --api-key ${{ secrets.galaxy_api_key }} buluma ${{ github.event.repository.name }}
 
   dependabot:
     needs:
