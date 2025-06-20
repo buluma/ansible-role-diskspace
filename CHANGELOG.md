@@ -6,6 +6,23 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 25.6.0 to 25.6.1 [\#57](https://github.com/buluma/ansible-role-diskspace/pull/57) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.5.0 to 25.6.0 [\#56](https://github.com/buluma/ansible-role-diskspace/pull/56) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 24.6.17 to 25.6.14 [\#55](https://github.com/buluma/ansible-role-diskspace/pull/55) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.4.0 to 25.5.0 [\#54](https://github.com/buluma/ansible-role-diskspace/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.2.1 to 25.4.0 [\#53](https://github.com/buluma/ansible-role-diskspace/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.2.0 to 25.2.1 [\#52](https://github.com/buluma/ansible-role-diskspace/pull/52) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.1.3 to 25.2.0 [\#51](https://github.com/buluma/ansible-role-diskspace/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.1.2 to 25.1.3 [\#50](https://github.com/buluma/ansible-role-diskspace/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.1.1 to 25.1.2 [\#49](https://github.com/buluma/ansible-role-diskspace/pull/49) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 25.1.0 to 25.1.1 [\#48](https://github.com/buluma/ansible-role-diskspace/pull/48) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#47](https://github.com/buluma/ansible-role-diskspace/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.12.1 to 24.12.2 [\#46](https://github.com/buluma/ansible-role-diskspace/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#45](https://github.com/buluma/ansible-role-diskspace/pull/45) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.10.0 to 24.12.0 [\#44](https://github.com/buluma/ansible-role-diskspace/pull/44) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#43](https://github.com/buluma/ansible-role-diskspace/pull/43) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#42](https://github.com/buluma/ansible-role-diskspace/pull/42) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#41](https://github.com/buluma/ansible-role-diskspace/pull/41) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.4 [\#40](https://github.com/buluma/ansible-role-diskspace/pull/40) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 24.2.0 to 24.6.17 [\#39](https://github.com/buluma/ansible-role-diskspace/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#38](https://github.com/buluma/ansible-role-diskspace/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -62,7 +79,6 @@
 - Bump buluma/molecule-action from 5.0.8 to 5.0.9 [\#21](https://github.com/buluma/ansible-role-diskspace/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#20](https://github.com/buluma/ansible-role-diskspace/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.7 to 5.0.8 [\#19](https://github.com/buluma/ansible-role-diskspace/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/molecule-action from 5.0.6 to 5.0.7 [\#18](https://github.com/buluma/ansible-role-diskspace/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.4 to 5.0.6 [\#17](https://github.com/buluma/ansible-role-diskspace/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.7 [\#15](https://github.com/buluma/ansible-role-diskspace/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#13](https://github.com/buluma/ansible-role-diskspace/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -85,6 +101,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 5.0.6 to 5.0.7 [\#18](https://github.com/buluma/ansible-role-diskspace/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#4](https://github.com/buluma/ansible-role-diskspace/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-diskspace/tree/1.0.6) (2022-03-23)
