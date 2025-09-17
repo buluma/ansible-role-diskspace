@@ -37,7 +37,7 @@ jobs:
       - name: Checkout Role
         uses: actions/checkout@v5
       - name: Run Ansible-lint
-        uses: ansible/ansible-lint@v25.8.2
+        uses: ansible/ansible-lint@v25.9.0
   test:
     needs:
       - lint
