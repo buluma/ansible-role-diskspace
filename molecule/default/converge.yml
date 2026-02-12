@@ -5,7 +5,7 @@
   gather_facts: true
 
   roles:
-    - role: ansible-role-diskspace
+    - role: buluma.diskspace
       # In a container these mounts should be available.
       diskspace_mounts:
         - name: /etc/resolv.conf
