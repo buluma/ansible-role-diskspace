@@ -1,5 +1,4 @@
 ---
-
 - name: mount | Convert to kilobytes
   delegate_to: localhost
   block:
@@ -26,8 +25,7 @@
     label: "{{ item.mount }}"
   when:
     - mount.name == item.mount
-    - mount.megabytes_available is defined or
-      mount.gigabytes_available is defined
+    - mount.megabytes_available is defined or mount.gigabytes_available is defined
 
 - name: mount | Check inodes available
   ansible.builtin.assert:

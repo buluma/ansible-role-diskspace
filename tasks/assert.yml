@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test diskspace_mounts
   ansible.builtin.assert:
     that:
@@ -52,9 +51,7 @@
 - name: assert | Test a correct combination is set in diskspace_mounts
   ansible.builtin.assert:
     that:
-      - item.megabytes_available is defined or
-        item.gigabytes_available is defined or
-        item.inodes_available is defined
+      - item.megabytes_available is defined or item.gigabytes_available is defined or item.inodes_available is defined
     quiet: true
   loop: "{{ diskspace_mounts }}"
   loop_control:
