@@ -7,7 +7,7 @@ name: Jira Issues Linking
 on:
   # Schedule updates (once weekly)
   schedule:
-    - cron: '7 0/3 * * *'
+  - cron: '7 0/3 * * *'
   workflow_dispatch:
   push:
 
@@ -16,18 +16,18 @@ jobs:
     runs-on: ubuntu-latest
     name: Jira Example
     steps:
-      - name: Login
-        uses: atlassian/gajira-login@master
-        env:
-          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
-          JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
-          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+    - name: Login
+      uses: atlassian/gajira-login@v3
+      env:
+        JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+        JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+        JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
 
-      - name: Jira TODO
-        uses: atlassian/gajira-todo@v2.0.1
-        with:
-          project: ANS
-          issuetype: Task
-          description: Created automatically via GitHub Actions
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Jira TODO
+      uses: atlassian/gajira-todo@v3
+      with:
+        project: ANS
+        issuetype: Task
+        description: Created automatically via GitHub Actions
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
