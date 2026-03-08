@@ -2,9 +2,9 @@
 
 Check diskspace (or inodes) available, fail if too low.
 
-|GitHub|GitLab|Downloads|Version|
-|------|------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-diskspace/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-diskspace/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-diskspace)|[![downloads](https://img.shields.io/ansible/role/d/buluma/diskspace)](https://galaxy.ansible.com/buluma/diskspace)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|
+|GitHub|Issues|Pull Requests|Version|Downloads|
+|------|------|-------------|-------|---------|
+|[![github](https://github.com/buluma/ansible-role-diskspace/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-diskspace/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-diskspace.svg)](https://github.com/buluma/ansible-role-diskspace/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/diskspace)](https://galaxy.ansible.com/ui/standalone/roles/buluma/diskspace/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -18,16 +18,18 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-  - role: buluma.diskspace
-      # In a container these mounts should be available.
-    diskspace_mounts:
-    - name: /etc/resolv.conf
-      megabytes_available: 64
-    - name: /etc/hostname
-      gigabytes_available: 4
-        # - name: /etc/hosts
-        #   inodes_available: 65536
-        #   gigabytes_available: 1
+    - role:
+        buluma.diskspace
+        # In a container these mounts should be available.
+      diskspace_mounts:
+        - name: /etc/resolv.conf
+          megabytes_available: 64
+        - name: /etc/hostname
+          gigabytes_available:
+            4
+            # - name: /etc/hosts
+            #   inodes_available: 65536
+            #   gigabytes_available: 1
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-diskspace/blob/master/molecule/default/prepare.yml):
@@ -40,7 +42,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   gather_facts: false
 
   roles:
-  - role: buluma.bootstrap
+    - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -72,30 +74,31 @@ diskspace_mounts: []
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
-|-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+| Requirement | GitHub |
+|-------------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|
 
 ## [Context](#context)
 
 This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-diskspace/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/buluma):
+This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
 
 |container|tags|
 |---------|----|
-|[Alpine](https://hub.docker.com/r/buluma/alpine)|all|
-|[Amazon](https://hub.docker.com/r/buluma/amazonlinux)|all|
-|[Debian](https://hub.docker.com/r/buluma/debian)|all|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
-|[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
-|[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
+|[Alpine](https://hub.docker.com/r/robertdebock/alpine)|all|
+|[Amazon](https://hub.docker.com/r/robertdebock/amazonlinux)|all|
+|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
+|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
+|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -112,3 +115,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
