@@ -51,14 +51,11 @@
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#35](https://github.com/buluma/ansible-role-diskspace/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#34](https://github.com/buluma/ansible-role-diskspace/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#33](https://github.com/buluma/ansible-role-diskspace/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#32](https://github.com/buluma/ansible-role-diskspace/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-diskspace/tree/1.2.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-diskspace/compare/1.1.0...1.2.0)
-
-**Merged pull requests:**
-
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#32](https://github.com/buluma/ansible-role-diskspace/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-diskspace/tree/1.1.0) (2024-01-02)
 
