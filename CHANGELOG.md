@@ -55,7 +55,6 @@
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#35](https://github.com/buluma/ansible-role-diskspace/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#34](https://github.com/buluma/ansible-role-diskspace/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#33](https://github.com/buluma/ansible-role-diskspace/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/todo-to-issue-action from 2.0.0 to 2.0.1 [\#30](https://github.com/buluma/ansible-role-diskspace/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-diskspace/tree/1.2.0) (2024-01-20)
 
@@ -82,6 +81,10 @@
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#29](https://github.com/buluma/ansible-role-diskspace/issues/29)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#27](https://github.com/buluma/ansible-role-diskspace/issues/27)
 - Move to todo action and run as one entity [\#9](https://github.com/buluma/ansible-role-diskspace/issues/9)
+
+**Merged pull requests:**
+
+- Bump buluma/todo-to-issue-action from 2.0.0 to 2.0.1 [\#30](https://github.com/buluma/ansible-role-diskspace/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.11](https://github.com/buluma/ansible-role-diskspace/tree/1.0.11) (2023-12-25)
 
